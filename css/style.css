@@ -1,0 +1,19 @@
+main
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2% 1fr 2% 1fr 2% 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+#small_title, #medium_title, #large_title
+{
+  text-align: center;
+  opacity: 0;
+}
+
+#small, #medium, #large
+{
+  opacity: 0;
+}
